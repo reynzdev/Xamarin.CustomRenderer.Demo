@@ -13,7 +13,6 @@
         HorizontalOptions="CenterAndExpand"
         VerticalOptions="CenterAndExpand">
 
-        <!--  Place new controls here  -->
         <customControls:ExtendedEntry
             HorizontalOptions="Center"
             Placeholder="Please enter something here"
