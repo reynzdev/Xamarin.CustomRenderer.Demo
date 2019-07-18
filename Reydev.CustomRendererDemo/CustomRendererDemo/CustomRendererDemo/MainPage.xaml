@@ -9,13 +9,20 @@
     mc:Ignorable="d">
 
     <StackLayout
-        BackgroundColor="Yellow"
         HorizontalOptions="CenterAndExpand"
+        Spacing="20"
         VerticalOptions="CenterAndExpand">
 
+        <Entry
+            BackgroundColor="#F7F7F7"
+            Placeholder="Xamarin.Forms Entry"
+            PlaceholderColor="Gray"
+            VerticalOptions="Center" />
+
         <customControls:ExtendedEntry
-            HorizontalOptions="Center"
-            Placeholder="Please enter something here"
+            BackgroundColor="#F7F7F7"
+            Placeholder="Extended Entry"
+            PlaceholderColor="Gray"
             VerticalOptions="Center" />
 
     </StackLayout>
